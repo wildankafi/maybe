@@ -22,13 +22,5 @@ class Home extends CI_Controller
     $this->load->view('displayhome', $data);
     }
 
-    function masuk_admin(){
-        $this->load->view('homeAdmin');
-    }
-    public function selanjutnya()
-    {
-        $id=$this->uri->segment(3);
-        $data['query']=$this->Model_app->per_id($id);
-        $this->load->view('displaydetail',$data);
-    }
+    
 }
