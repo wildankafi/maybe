@@ -35,6 +35,7 @@
                         <li><a href="<?php echo site_url('Tips/tips_ibu')?>">Tips Ibu</a></li>
                         <li><a href="<?php echo site_url('Tips/tips_bayi')?>">Tips Bayi</a></li>
                         <li><a href="<?php echo site_url('Gejala')?>">Info Gejala</a></li>
+						<li><a href="<?php echo site_url('Tim')?>">Tim</a></li>
                     </ul>
                 </div>
             </div
